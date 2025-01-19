@@ -24,6 +24,8 @@ This project is a Flask-based web application that allows users to extract produ
    - A simple API is exposed at `/api/reviews` where users can provide a `page` query parameter (the URL of the page from which to scrape reviews).
    - The response will be in JSON format, containing the reviews' details and a count of total reviews.
 
+## Demo
+![GIF](./gif2.gif)
 
 ## Model Used
 - GPT-2 (Generative Pretrained Transformer 2): The GPT-2 model is used for generating dynamic CSS selectors based on the HTML content of the webpage. This model was fine-tuned for text generation tasks, allowing it to predict and generate selector patterns that match the review sections on the page.
